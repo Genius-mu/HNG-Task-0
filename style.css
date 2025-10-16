@@ -167,6 +167,11 @@ nav a:focus {
   outline: none;
 }
 
+@media (max-width: 710px) {
+  .profile-info {
+    padding-left: 0;
+  }
+}
 @media (min-width: 710px) {
   article[data-testid="test-profile-card"] {
     flex-direction: row;
