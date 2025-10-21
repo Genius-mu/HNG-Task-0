@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main data-testid="test-contact-page">
+      <h1>Contact Us</h1>
+      <nav class="navbar">
+        <a href="index.html">Profile</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <form id="contactForm" novalidate>
+        <div class="form-control">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            data-testid="test-contact-name"
+            required
+          />
+          <p
+            id="error-name"
+            data-testid="test-contact-error-name"
+            class="error"
+          ></p>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            data-testid="test-contact-email"
+            required
+          />
+          <p
+            id="error-email"
+            data-testid="test-contact-error-email"
+            class="error"
+          ></p>
+        </div>
+
+        <div class="form-control">
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            data-testid="test-contact-subject"
+            required
+          />
+          <p
+            id="error-subject"
+            data-testid="test-contact-error-subject"
+            class="error"
+          ></p>
+        </div>
+
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            data-testid="test-contact-message"
+            required
+          ></textarea>
+          <p
+            id="error-message"
+            data-testid="test-contact-error-message"
+            class="error"
+          ></p>
+        </div>
+
+        <button type="submit" data-testid="test-contact-submit">
+          Send Message
+        </button>
+      </form>
+
+      <p data-testid="test-contact-success" class="success"></p>
+    </main>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
