@@ -19,6 +19,18 @@ A responsive and interactive profile card built using **HTML, CSS, and JavaScrip
 
 ---
 
+💡 Author
+
+👤 Mustapha Adegbite
+Frontend Developer | HNG Intern
+📧 adegbitemustapha247@gmail.com
+
+🌐 LinkedIn Profile
+https://www.linkedin.com/in/mustaphaaadegbite/
+
+---
+
+
 ## 🛠️ Technologies Used
 
 - **HTML5** – structure and semantics
