@@ -1,22 +1,31 @@
-# Profile Card - HNG Internship Task
+# 🌟 Profile Card - HNG Internship Task
 
-A responsive profile card built using **HTML, CSS, and JavaScript** with AOS (Animate On Scroll) for smooth entry animations.
+A responsive and interactive profile card built using **HTML, CSS, and JavaScript**, featuring smooth animations, About and Contact pages, and clean responsive design.
 
 ## 🚀 Live Demo
 
 👉 [View Live on Render](https://hngbio.onrender.com/)
 
+---
+
 ## 🧠 Features
 
-- Responsive layout for all screen sizes
-- Dynamic time display using JavaScript
-- Accessible and semantic HTML structure
+- Fully responsive layout for all screen sizes
+- Dynamic **current time** display using JavaScript
+- **About Page** – includes a short description and project info
+- **Contact Page** – functional contact form with validation
+- Clean and semantic HTML structure
+- Accessible, user-friendly interface
+
+---
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+- **HTML5** – structure and semantics
+- **CSS3** – modern responsive styling and animations
+- **JavaScript (Vanilla)** – DOM manipulation and interactivity
+
+---
 
 ## 🧩 How to Run Locally
 
